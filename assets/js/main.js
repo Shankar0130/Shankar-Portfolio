@@ -33,6 +33,41 @@ const sr = ScrollReveal({
     reset: true
 });
 
+
+//onClick function on work image
+
+document.getElementById("work1").onclick = function(){
+    // navigate to new page
+    window.open('https://shankar0130.github.io/MyCoffee.github.io/', '_blank');
+    
+}
+document.getElementById("work2").onclick = function(){
+    // navigate to new page
+    window.open('https://github.com/Shankar0130/StackOverFlow_Backend_Clone', '_blank');
+    
+}
+document.getElementById("work6").onclick = function(){
+    // navigate to new page
+    window.open('https://github.com/Shankar0130/ChatApp_Android_Firebase', '_blank');
+    
+}
+document.getElementById("work4").onclick = function(){
+    // navigate to new page
+    window.open('https://github.com/Shankar0130/BuyLaptop_ReactProject', '_blank');
+    
+}
+document.getElementById("work5").onclick = function(){
+    // navigate to new page
+    window.open('https://github.com/Shankar0130/ContactApp_ReactNative', '_blank');
+    
+}
+
+document.getElementById("work3").onclick = function(){
+    // navigate to new page
+    window.open('https://shankartshirtstore.netlify.app/','_blank');
+    
+}
+
 /*SCROLL HOME*/
 sr.reveal('.home__title',{}); 
 sr.reveal('.button',{delay: 200}); 
