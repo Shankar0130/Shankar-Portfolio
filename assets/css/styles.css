@@ -221,6 +221,7 @@ img {
 	right: 5%;
 	bottom: 5%;
 	width: 295px;
+	z-index: var(--z-back);
 }
 
 /*BUTTONS*/
