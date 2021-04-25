@@ -68,6 +68,14 @@ document.getElementById("work3").onclick = function(){
     
 }
 
+
+document.getElementById("hire_me").onclick = function(){
+    // navigate to new page
+    window.open("mailto:shankaryadav0130@gmail.com",'_top');
+    
+}
+
+
 /*SCROLL HOME*/
 sr.reveal('.home__title',{}); 
 sr.reveal('.button',{delay: 200}); 
